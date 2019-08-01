@@ -1,0 +1,15 @@
+modelform_defines_fields
+checks
+flatten_fieldsets
+generic_inlineformset_factory
+GenericStackedInline
+partial
+InlineModelAdmin
+ALL_FIELDS
+InlineModelAdminChecks
+GenericForeignKey
+BaseGenericInlineFormSet
+FieldDoesNotExist
+GenericTabularInline
+GenericInlineModelAdmin
+GenericInlineModelAdminChecks

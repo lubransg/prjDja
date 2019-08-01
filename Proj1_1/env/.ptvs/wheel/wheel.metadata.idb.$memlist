@@ -1,0 +1,12 @@
+EXTRA_RE
+textwrap
+os
+read_pkg_info
+pkginfo_unicode
+convert_requirements
+requires_to_requires_dist
+generate_requirements
+pkg_resources
+dedent_description
+re
+pkginfo_to_metadata

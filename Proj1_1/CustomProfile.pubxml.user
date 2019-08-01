@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Msf+Weak0acE8AieWPdMAAAAAACAAAAAAAQZgAAAAEAACAAAAA/TiY2YCIGkHUpIt0i6miu1E9epu7UFKhJVgSXfx9gAwAAAAAOgAAAAAIAACAAAACKqyxuFrHVi8qtG58Lz/oxW0pHuoowdTBz4ZqnajM3EIAAAADoMlx+1k7ukktMhqmxCpKpsksrhrhrVUmTIgi99zTAMaiX6kKLSm9wAF2HpKYF/6Fe40zMlhCe/K1k9FTOyHPjBROx9UUypEYfPnEM4U3umU5oVd83Ist9FrrA/8Q5gmG4mbXF9r8J4F7lN5NcvN9KOZ+/dbfNtBZZZnNAo96OWkAAAACf9mSuEBA9pKMmZoEd3Ljd9mjlQNxSqcum+nG35v4ywKJtbETo4cYaX8ANHR17/Ufb4kqbztjAH6B0jSgPhRhr</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-dm1-161.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="home/admin.py">
+      <publishTime>07/24/2019 18:28:57</publishTime>
+    </File>
+    <File Include="home/apps.py">
+      <publishTime>07/31/2019 17:35:36</publishTime>
+    </File>
+    <File Include="home/migrations/__init__.py">
+      <publishTime>07/24/2019 11:59:25</publishTime>
+    </File>
+    <File Include="home/models.py">
+      <publishTime>07/24/2019 18:49:17</publishTime>
+    </File>
+    <File Include="home/static/images/favicon.png">
+      <publishTime>07/25/2019 12:34:52</publishTime>
+    </File>
+    <File Include="home/static/scripts/bootstrap-slider.min.js">
+      <publishTime>10/24/2018 20:12:13</publishTime>
+    </File>
+    <File Include="home/static/scripts/bootstrap.js">
+      <publishTime>11/20/2018 15:08:14</publishTime>
+    </File>
+    <File Include="home/static/scripts/bootstrap.min.js">
+      <publishTime>11/20/2018 15:08:22</publishTime>
+    </File>
+    <File Include="home/static/scripts/floating-wpp.min.js">
+      <publishTime>11/20/2018 12:11:47</publishTime>
+    </File>
+    <File Include="home/static/scripts/functions/functions.js">
+      <publishTime>07/25/2019 19:04:28</publishTime>
+    </File>
+    <File Include="home/static/scripts/functions/login.js">
+      <publishTime>07/26/2019 11:31:46</publishTime>
+    </File>
+    <File Include="home/static/scripts/jquery-3.2.1.min.js">
+      <publishTime>10/24/2018 20:12:20</publishTime>
+    </File>
+    <File Include="home/static/scripts/jquery.datetimepicker.full.min.js">
+      <publishTime>10/24/2018 20:12:21</publishTime>
+    </File>
+    <File Include="home/static/scripts/jquery.flexslider-min.js">
+      <publishTime>10/24/2018 20:12:21</publishTime>
+    </File>
+    <File Include="home/static/scripts/jquery.flexslider.js">
+      <publishTime>11/25/2018 11:45:03</publishTime>
+    </File>
+    <File Include="home/static/scripts/wow.min.js">
+      <publishTime>10/24/2018 20:12:24</publishTime>
+    </File>
+    <File Include="home/static/styles/all.css">
+      <publishTime>10/24/2018 20:10:32</publishTime>
+    </File>
+    <File Include="home/static/styles/animate.css">
+      <publishTime>10/24/2018 20:10:33</publishTime>
+    </File>
+    <File Include="home/static/styles/bootstrap-datetimepicker.min.css">
+      <publishTime>10/24/2018 20:10:34</publishTime>
+    </File>
+    <File Include="home/static/styles/bootstrap-slider.min.css">
+      <publishTime>10/24/2018 20:10:34</publishTime>
+    </File>
+    <File Include="home/static/styles/bootstrap.css">
+      <publishTime>11/20/2018 15:04:52</publishTime>
+    </File>
+    <File Include="home/static/styles/bootstrap.min.css">
+      <publishTime>11/20/2018 15:04:30</publishTime>
+    </File>
+    <File Include="home/static/styles/flexslider.css">
+      <publishTime>11/25/2018 11:17:59</publishTime>
+    </File>
+    <File Include="home/static/styles/floating-wpp.min.css">
+      <publishTime>10/24/2018 20:10:38</publishTime>
+    </File>
+    <File Include="home/static/styles/fontawesome.min.css">
+      <publishTime>11/25/2018 10:47:48</publishTime>
+    </File>
+    <File Include="home/static/styles/fonts/flexslider-icon.eot">
+      <publishTime>10/24/2018 20:10:39</publishTime>
+    </File>
+    <File Include="home/static/styles/fonts/flexslider-icon.svg">
+      <publishTime>10/24/2018 20:10:39</publishTime>
+    </File>
+    <File Include="home/static/styles/fonts/flexslider-icon.ttf">
+      <publishTime>10/24/2018 20:10:40</publishTime>
+    </File>
+    <File Include="home/static/styles/fonts/flexslider-icon.woff">
+      <publishTime>10/24/2018 20:10:40</publishTime>
+    </File>
+    <File Include="home/static/styles/jquery.datetimepicker.css">
+      <publishTime>10/24/2018 20:10:41</publishTime>
+    </File>
+    <File Include="home/static/styles/style.css">
+      <publishTime>07/25/2019 18:44:17</publishTime>
+    </File>
+    <File Include="home/static/styles/whatsapp.svg">
+      <publishTime>10/24/2018 20:10:42</publishTime>
+    </File>
+    <File Include="home/tests.py">
+      <publishTime>07/24/2019 11:59:25</publishTime>
+    </File>
+    <File Include="home/urls.py">
+      <publishTime>07/26/2019 11:27:22</publishTime>
+    </File>
+    <File Include="home/views.py">
+      <publishTime>07/26/2019 11:29:59</publishTime>
+    </File>
+    <File Include="home/__init__.py">
+      <publishTime>07/24/2019 11:59:25</publishTime>
+    </File>
+    <File Include="manage.py">
+      <publishTime>07/31/2019 17:20:38</publishTime>
+    </File>
+    <File Include="Proj1_1/settings.py">
+      <publishTime>08/01/2019 12:32:34</publishTime>
+    </File>
+    <File Include="Proj1_1/urls.py">
+      <publishTime>08/01/2019 10:34:47</publishTime>
+    </File>
+    <File Include="Proj1_1/wsgi.py">
+      <publishTime>07/31/2019 16:56:39</publishTime>
+    </File>
+    <File Include="Proj1_1/__init__.py">
+      <publishTime>07/31/2019 16:56:39</publishTime>
+    </File>
+    <File Include="requirements.txt">
+      <publishTime>07/31/2019 17:59:32</publishTime>
+    </File>
+    <File Include="src/html/base.html">
+      <publishTime>07/26/2019 10:25:59</publishTime>
+    </File>
+    <File Include="src/html/login.html">
+      <publishTime>07/25/2019 19:54:04</publishTime>
+    </File>
+    <File Include="src/html/welcome.html">
+      <publishTime>07/26/2019 11:27:02</publishTime>
+    </File>
+    <File Include="static/admin/css/autocomplete.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/base.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/changelists.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/dashboard.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/fonts.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/forms.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/login.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/responsive.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/responsive_rtl.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/rtl.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/LICENSE-SELECT2.md">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/select2.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/select2.min.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/css/widgets.css">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/fonts/LICENSE.txt">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/fonts/README.txt">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Bold-webfont.woff">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Light-webfont.woff">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Regular-webfont.woff">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/calendar-icons.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_off.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_on.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-addlink.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-alert.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-calendar.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-changelink.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-clock.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-deletelink.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-no.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown-alt.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-viewlink.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-yes.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/inline-delete.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/LICENSE">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/README.txt">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/search.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/selector-icons.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/sorting-icons.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-add.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-arrowright.svg">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.min.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/DateTimeShortcuts.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/RelatedObjectLookups.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/autocomplete.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/calendar.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/cancel.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/change_form.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.min.js">
+      <publishTime>07/31/2019 17:11:37</publishTime>
+    </File>
+    <File Include="static/admin/js/core.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.min.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/jquery.init.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/popup_response.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.min.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate_init.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectBox.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectFilter2.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/timeparse.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/urlify.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.min.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/LICENSE.txt">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ar.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/az.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/bg.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ca.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/cs.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/da.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/de.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/el.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/en.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/es.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/et.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/eu.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fa.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fi.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fr.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/gl.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/he.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hi.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hr.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hu.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/id.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/is.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/it.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ja.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/km.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ko.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/lt.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/lv.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/mk.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ms.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/nb.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/nl.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pl.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pt-BR.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pt.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ro.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ru.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sk.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sr-Cyrl.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sr.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sv.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/th.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/tr.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/uk.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/vi.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/zh-CN.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/zh-TW.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/LICENSE.md">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/select2.full.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/select2.full.min.js">
+      <publishTime>07/31/2019 17:11:38</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/LICENSE.txt">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.min.js">
+      <publishTime>07/31/2019 17:11:39</publishTime>
+    </File>
+    <File Include="static/images/favicon.png">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/bootstrap-slider.min.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/bootstrap.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/bootstrap.min.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/floating-wpp.min.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/functions/functions.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/functions/login.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/jquery-3.2.1.min.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/jquery.datetimepicker.full.min.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/jquery.flexslider-min.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/jquery.flexslider.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/scripts/wow.min.js">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/all.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/animate.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/bootstrap-datetimepicker.min.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/bootstrap-slider.min.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/bootstrap.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/bootstrap.min.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/flexslider.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/floating-wpp.min.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/fontawesome.min.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/fonts/flexslider-icon.eot">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/fonts/flexslider-icon.svg">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/fonts/flexslider-icon.ttf">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/fonts/flexslider-icon.woff">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/jquery.datetimepicker.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/style.css">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+    <File Include="static/styles/whatsapp.svg">
+      <publishTime>07/31/2019 17:42:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

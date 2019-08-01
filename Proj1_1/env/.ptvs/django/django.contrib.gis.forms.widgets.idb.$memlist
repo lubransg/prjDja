@@ -1,0 +1,12 @@
+logger
+OSMWidget
+translation
+gdal
+logging
+Widget
+json_regex
+GEOSException
+BaseGeometryWidget
+GEOSGeometry
+OpenLayersWidget
+settings

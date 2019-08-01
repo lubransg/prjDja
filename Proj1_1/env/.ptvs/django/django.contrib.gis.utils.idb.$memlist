@@ -1,0 +1,9 @@
+LayerMapping
+add_srs_entry
+ogrinfo
+srs
+layermapping
+LayerMapError
+ogrinspect
+mapping
+ImproperlyConfigured

@@ -1,0 +1,14 @@
+urlparse
+urlopen
+os
+log
+DistutilsError
+orig
+hashlib
+upload
+HTTPError
+spawn
+standard_b64encode
+Request
+getpass
+io

@@ -1,0 +1,4 @@
+PIP_DELETE_MARKER_FILENAME
+DELETE_MARKER_MESSAGE
+os
+write_delete_marker_file

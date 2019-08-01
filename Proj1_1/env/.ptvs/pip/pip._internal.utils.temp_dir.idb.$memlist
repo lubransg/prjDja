@@ -1,0 +1,10 @@
+itertools
+os
+absolute_import
+logging
+logger
+rmtree
+AdjacentTempDirectory
+errno
+tempfile
+TempDirectory

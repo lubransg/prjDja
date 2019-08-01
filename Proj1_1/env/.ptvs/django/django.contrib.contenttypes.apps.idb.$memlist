@@ -1,0 +1,10 @@
+ContentTypesConfig
+pre_migrate
+post_migrate
+_
+check_model_name_lengths
+checks
+inject_rename_contenttypes_operations
+AppConfig
+check_generic_foreign_keys
+create_contenttypes

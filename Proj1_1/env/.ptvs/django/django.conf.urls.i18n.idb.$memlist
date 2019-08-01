@@ -1,0 +1,10 @@
+get_resolver
+LocalePrefixPattern
+set_language
+URLResolver
+i18n_patterns
+functools
+is_language_prefix_patterns_used
+path
+urlpatterns
+settings

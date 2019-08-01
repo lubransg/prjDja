@@ -1,0 +1,6 @@
+is_prod_appengine_mvms
+is_prod_appengine
+is_appengine_sandbox
+is_local_appengine
+os
+is_appengine

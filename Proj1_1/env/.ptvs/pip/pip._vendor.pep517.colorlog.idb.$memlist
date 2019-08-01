@@ -1,0 +1,6 @@
+_stderr_supports_color
+LogFormatter
+logging
+sys
+enable_colourful_output
+curses

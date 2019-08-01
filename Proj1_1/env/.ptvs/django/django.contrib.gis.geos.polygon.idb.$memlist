@@ -1,0 +1,7 @@
+GEOM_PTR
+GEOSGeometry
+c_uint
+byref
+capi
+LinearRing
+Polygon

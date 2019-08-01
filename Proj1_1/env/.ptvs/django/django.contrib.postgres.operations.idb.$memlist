@@ -1,0 +1,12 @@
+get_hstore_oids
+CryptoExtension
+HStoreExtension
+Operation
+get_citext_oids
+CreateExtension
+TrigramExtension
+register_type_handlers
+UnaccentExtension
+BtreeGinExtension
+CITextExtension
+BtreeGistExtension

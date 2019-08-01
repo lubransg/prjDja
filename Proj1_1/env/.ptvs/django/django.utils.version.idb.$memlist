@@ -1,0 +1,16 @@
+sys
+get_version
+os
+PY39
+LooseVersion
+PY38
+get_version_tuple
+datetime
+get_git_changeset
+get_complete_version
+get_main_version
+PY37
+get_docs_version
+PY36
+functools
+subprocess

@@ -1,0 +1,5 @@
+_internal
+_vendor
+__version__
+__main__
+__file__

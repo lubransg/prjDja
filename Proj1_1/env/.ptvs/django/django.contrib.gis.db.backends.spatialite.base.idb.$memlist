@@ -1,0 +1,10 @@
+DatabaseFeatures
+SpatiaLiteClient
+SpatialiteSchemaEditor
+settings
+SQLiteDatabaseWrapper
+SpatiaLiteIntrospection
+SpatiaLiteOperations
+DatabaseWrapper
+find_library
+ImproperlyConfigured
