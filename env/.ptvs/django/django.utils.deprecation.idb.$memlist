@@ -1,8 +1,0 @@
-DeprecationInstanceCheck
-RemovedInNextVersionWarning
-inspect
-warnings
-RemovedInDjango30Warning
-RenameMethodsBase
-warn_about_renamed_method
-MiddlewareMixin

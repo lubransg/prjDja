@@ -1,0 +1,7 @@
+-django-pyodbc-azure
+-Pillow
+-pytz
+-django-paypal
+	Modify on "C:\Users\carlo\AppData\Roaming\Python\Python37\site-packages\paypal\standard\ipn\migrations\0001_initial.py"
+		...DecimalField(default=0, null=True, max_digits=64... to
+		...DecimalField(default=0, null=True, max_digits=38...

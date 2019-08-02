@@ -1,24 +1,11 @@
 #!/usr/bin/env python
-"""
-Command-line utility for administrative tasks.
-"""
-
+"""Django's command-line utility for administrative tasks."""
 import os
 import sys
 
-#if __name__ == "__main__":
-#    os.environ.setdefault(
-#        "DJANGO_SETTINGS_MODULE",
-#        "Proj1_1.settings"
-#    )
-#
-#    from django.core.management import execute_from_command_line
-#
-#    execute_from_command_line(sys.argv)
-
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Proj1_1.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'SpecialDaysOnline.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

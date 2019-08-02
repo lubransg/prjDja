@@ -2,5 +2,362 @@
 {% load static %}
 
 {% block content %}
-Hola Mundo!
+
+<div class="row">
+  <div class="col-md-8">   
+    <form class="row">
+      {% csrf_token %}
+      <div class="col-md-6">
+        <h2>¡BMW a precios brutales!</h2>
+      </div>
+      <div class="col-md-6">
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <img src="{% static 'images/LOGO_bmw.png' %}" style="height: 24px" alt="">
+              </div>
+            </div>
+            <input type="text" id="TextTest" class="form-control">
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-default" onclick="teststoredprocedure()"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+      </div>
+    </form> 
+    <div class="swiper-container swiper-container-horizontal" id="DownSwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 1</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">29,000 €</div>
+                <div class="col-md-6">Captur 2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <div class="col-md-4" style="background-color: #000;">
+    <div class="row no-gutters carrousel-block">
+      <div class="col-12">
+        <div class="swiper-container swiper-container-horizontal" id="TopSwiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur1.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur2.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div>
+                <img src="{% static 'images/SliderTest/Captur3.jpg' %}" alt="" class="imgpro" style="opacity: 1" />
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="col-md-12">29,000 €</div>
+      <div class="col-md-12">Detalles del vehículo ...</div>
+      <div class="col-md-12" style="text-align: center;"><button class="btn btn-danger" type="button" style="border-radius: 1rem;">Reservar</button></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.onload = function() {
+    var hswiper = new Swiper('#TopSwiper', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 200000,
+        disableOnInteraction: true,
+      },
+    });
+
+    var slidesPerView = 1;
+    if ($(window).width() < 768){
+      slidesPerView = 1;
+    }
+    var vswiper = new Swiper('#DownSwiper', {
+      direction: 'vertical',
+      slidesPerView: slidesPerView,
+      spaceBetween: 0,
+      loop: false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+    });
+    $('#DownSwiper').on('mousewheel', function(event) {
+      event.preventDefault();  
+      if (event.originalEvent.wheelDelta >= 0) {        
+        vswiper.slidePrev();
+      }
+      else {   
+        vswiper.slideNext();
+      }
+    });
+  }
+</script>
+
 {% endblock %}

@@ -1,9 +1,0 @@
-Point
-GEOSGeometry
-numpy
-capi
-GEOSException
-LineString
-GEOSCoordSeq
-LinearRing
-LinearGeometryMixin

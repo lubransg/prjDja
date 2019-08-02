@@ -1,9 +1,0 @@
-git
-versioncontrol
-vcs
-pip
-make_vcs_requirement_url
-subversion
-RemoteNotFoundError
-bazaar
-mercurial

@@ -2,12 +2,12 @@
 {% load static %}
 
 {% block content %}
-<form id="LoginForm" method="POST">
+<form id="LoginForm" style="text-align: center:" method="POST">
 	{% csrf_token %}
 	<label for="UserCode">Usuario</label>
-	<input type="text" id="UserCode" value="cllamocca">
+	<input type="text" id="UserCode" autocomplete="">
 	<label for="UserPass">Clave</label>
-	<input type="password" id="UserPass" class="blockinput" value="gatita">
+	<input type="password" id="UserPass" class="blockinput" autocomplete="">
 	<div>
 		<button class="btn btn-default" type="button" onclick="Login()">Test</button>
 	</div>

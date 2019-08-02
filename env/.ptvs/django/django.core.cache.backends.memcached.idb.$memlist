@@ -1,9 +1,0 @@
-cached_property
-pickle
-time
-MemcachedCache
-re
-PyLibMCCache
-DEFAULT_TIMEOUT
-BaseCache
-BaseMemcachedCache
