@@ -1,0 +1,17 @@
+geos_version_tuple
+byref
+GeometryCollection
+GEOSException
+capi
+MultiPoint
+Polygon
+LineString
+GEOSGeometry
+Point
+MultiPolygon
+MultiLineString
+LinearRing
+LinearGeometryMixin
+c_uint
+GEOM_PTR
+c_int

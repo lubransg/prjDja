@@ -1,0 +1,10 @@
+StackError
+UnpackException
+OutOfData
+BufferFull
+ExtraData
+PackValueError
+FormatError
+PackException
+PackOverflowError
+UnpackValueError

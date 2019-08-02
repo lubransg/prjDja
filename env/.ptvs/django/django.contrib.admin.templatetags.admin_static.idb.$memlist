@@ -1,0 +1,6 @@
+static
+register
+warnings
+Library
+RemovedInDjango30Warning
+_static

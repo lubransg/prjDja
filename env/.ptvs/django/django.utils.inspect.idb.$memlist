@@ -1,0 +1,7 @@
+func_supports_parameter
+get_func_args
+inspect
+get_func_full_args
+func_accepts_var_args
+func_has_no_args
+func_accepts_kwargs

@@ -1,0 +1,11 @@
+MYPY_CHECK_RUNNING
+List
+auto_decode
+locale
+re
+BOMS
+Text
+codecs
+Tuple
+sys
+ENCODING_RE

@@ -1,0 +1,5 @@
+get_view_name
+MiddlewareMixin
+settings
+XViewMiddleware
+HttpResponse

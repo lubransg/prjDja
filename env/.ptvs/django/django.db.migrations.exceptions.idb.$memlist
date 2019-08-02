@@ -1,0 +1,10 @@
+AmbiguityError
+InvalidBasesError
+IrreversibleError
+InconsistentMigrationHistory
+BadMigrationError
+InvalidMigrationPlan
+NodeNotFoundError
+DatabaseError
+CircularDependencyError
+MigrationSchemaMissing

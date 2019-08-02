@@ -1,0 +1,10 @@
+GDALException
+Field
+OGRGeometry
+geom_api
+GDALBase
+capi
+OGRGeomType
+Feature
+force_text
+force_bytes

@@ -1,0 +1,8 @@
+GDALException
+c_void_p
+rcapi
+force_text
+force_bytes
+vcapi
+GDALBase
+Driver

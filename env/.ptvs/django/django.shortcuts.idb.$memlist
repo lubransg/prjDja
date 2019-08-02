@@ -1,0 +1,17 @@
+HttpResponse
+get_list_or_404
+reverse
+_get_queryset
+resolve_url
+Promise
+HttpResponsePermanentRedirect
+loader
+RemovedInDjango30Warning
+get_object_or_404
+Http404
+warnings
+NoReverseMatch
+render
+redirect
+HttpResponseRedirect
+render_to_response

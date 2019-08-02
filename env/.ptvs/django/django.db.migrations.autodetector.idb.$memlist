@@ -1,0 +1,15 @@
+COMPILED_REGEX_TYPE
+AlterModelOptions
+MigrationQuestioner
+RegexObject
+re
+MigrationOptimizer
+get_migration_name_timestamp
+operations
+chain
+functools
+models
+MigrationAutodetector
+stable_topological_sort
+Migration
+settings

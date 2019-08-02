@@ -1,0 +1,15 @@
+__metaclass__
+pkg_resources
+os
+log
+convert_path
+DistutilsError
+develop
+setuptools
+easy_install
+six
+DistutilsOptionError
+glob
+VersionlessRequirement
+io
+namespaces

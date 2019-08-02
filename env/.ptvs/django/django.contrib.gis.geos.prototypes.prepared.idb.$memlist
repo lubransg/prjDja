@@ -1,0 +1,17 @@
+prepared_crosses
+prepared_intersects
+prepared_destroy
+prepared_overlaps
+prepared_contains_properly
+PreparedPredicate
+geos_prepare
+prepared_contains
+PREPGEOM_PTR
+prepared_covers
+prepared_disjoint
+prepared_touches
+prepared_within
+check_predicate
+GEOSFuncFactory
+GEOM_PTR
+c_byte

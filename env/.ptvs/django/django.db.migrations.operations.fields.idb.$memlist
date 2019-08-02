@@ -1,0 +1,10 @@
+AddField
+cached_property
+Operation
+RemoveField
+RenameField
+NOT_PROVIDED
+is_referenced_by_foreign_key
+FieldDoesNotExist
+AlterField
+FieldOperation

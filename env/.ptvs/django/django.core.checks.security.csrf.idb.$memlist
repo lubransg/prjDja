@@ -1,0 +1,9 @@
+check_csrf_middleware
+check_csrf_cookie_secure
+W003
+_csrf_middleware
+Warning
+Tags
+register
+W016
+settings

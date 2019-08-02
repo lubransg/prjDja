@@ -1,0 +1,4 @@
+xframe_options_exempt
+wraps
+xframe_options_deny
+xframe_options_sameorigin

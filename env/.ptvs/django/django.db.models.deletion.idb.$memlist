@@ -1,0 +1,17 @@
+connections
+sql
+transaction
+SET
+IntegrityError
+attrgetter
+Counter
+OrderedDict
+Collector
+SET_DEFAULT
+signals
+PROTECT
+ProtectedError
+CASCADE
+SET_NULL
+get_candidate_relations_to_delete
+DO_NOTHING

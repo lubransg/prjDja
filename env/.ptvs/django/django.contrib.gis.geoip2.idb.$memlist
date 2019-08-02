@@ -1,0 +1,7 @@
+__all__
+HAS_GEOIP2
+resources
+geoip2
+GeoIP2Exception
+GeoIP2
+base

@@ -1,0 +1,14 @@
+make_model_tuple
+pre_delete
+ModelSignal
+m2m_changed
+pre_save
+partial
+class_prepared
+pre_init
+post_delete
+post_save
+pre_migrate
+post_migrate
+post_init
+Signal

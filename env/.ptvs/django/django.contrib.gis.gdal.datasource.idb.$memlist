@@ -1,0 +1,9 @@
+GDALException
+Driver
+force_bytes
+byref
+GDALBase
+capi
+Layer
+force_text
+DataSource

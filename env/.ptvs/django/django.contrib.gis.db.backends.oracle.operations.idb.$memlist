@@ -1,0 +1,16 @@
+wkb_r
+SDODWithin
+re
+GEOSGeometryBase
+SDORelate
+aggregates
+SDOOperator
+GEOSGeometry
+SpatialOperator
+Distance
+DatabaseOperations
+BaseSpatialOperations
+OracleSpatialAdapter
+DEFAULT_TOLERANCE
+SDODisjoint
+OracleOperations

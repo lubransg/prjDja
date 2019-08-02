@@ -1,0 +1,11 @@
+MissingDependencyError
+MissingComponentError
+RFC3986Exception
+InvalidComponentsError
+ResolutionError
+ValidationError
+UnpermittedComponentError
+compat
+PasswordForbidden
+InvalidPort
+InvalidAuthority

@@ -1,0 +1,5 @@
+virtualenv_no_global
+site
+running_under_virtualenv
+sys
+os

@@ -1,0 +1,10 @@
+Group
+next_char
+get_quantifier
+contains
+normalize
+flatten_result
+Choice
+NonCapture
+ESCAPE_MAPPINGS
+walk_to_end

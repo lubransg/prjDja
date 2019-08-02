@@ -1,0 +1,10 @@
+CoordTransform
+force_text
+SRSException
+force_bytes
+byref
+GDALBase
+capi
+c_char_p
+c_int
+SpatialReference
