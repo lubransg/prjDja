@@ -8,5 +8,5 @@ handlers:
 # It is required when static routes are defined, but can be omitted 
 # (along with the entire handlers section) when there are no static 
 # files defined.
-- url: auto
-  script: auto# [END django_app]
+#- url: auto
+#  script: auto# [END django_app]
