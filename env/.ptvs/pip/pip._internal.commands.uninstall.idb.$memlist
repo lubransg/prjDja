@@ -1,8 +1,0 @@
-install_req_from_line
-canonicalize_name
-absolute_import
-Command
-parse_requirements
-protect_pip_from_modification_on_windows
-UninstallCommand
-InstallationError

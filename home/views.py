@@ -4,7 +4,7 @@ from django.urls import path, reverse
 
 from . import views
 from .models import SDO_Users
-from django.db import connection
+from django.db import connection,connections
 from collections import namedtuple
 
 from django.conf import settings
@@ -39,18 +39,21 @@ def TryLogin(request):
 		UserPass = data.get('UserPass', 'Error')
 	else:
 		return HttpResponse('Error: Post.')
-	SDO_Users.objects.all()
-	try:
-		UserDetail = SDO_Users.objects.get(Code=UserCode)
-		if(UserDetail.Password == UserPass):
+		
+	cursor = connection.cursor()
+	query = "EXEC {} '{}', '{}'"
+	cursor.execute(query.format("SDO_GetUserLog",UserCode, UserPass))
+	Result = namedtuplefetchall(cursor)
+	result = ''
+	if len(Result)>0:
+		for obj in Result:
 			result = 'Correcto'
-			request.session['UserID'] = UserDetail.id
-			request.session['UserName'] = UserDetail.Name
-			request.session['UserCode'] = UserDetail.Code
-		else:
-			result = 'Contraseña equivocada'
-	except:
-		result = "No existe el usuario"
+			request.session['UserID'] = obj.id
+			request.session['UserName'] = obj.Name
+			request.session['UserCode'] = obj.Code
+			#result = result + 'Name: ' + obj.Name + ' UserCode: ' + obj.Code + '\n'
+	else:
+		result = "Contraseña y/o usuario incorrecto"
 	return HttpResponse(result) 
 
 def Welcome(request):
@@ -69,6 +72,10 @@ def Welcome(request):
 		) 
 	else:
 		return redirect('/home/login')
+
+def SessionOFF(request):
+	request.session.flush()
+	return redirect('/home/login')
 
 def teststoredprocedure(request):	
 	if request.method == 'POST':

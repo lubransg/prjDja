@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import posixpath
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ SECRET_KEY = 'g*vpz(s5u7f769$so-wtmt$z3osq$8w%)l74o0zth-m!-yo9n0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['specialdaysonline.azurewebsites.net','127.0.0.1']
 
 
 # Application definition
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'paypal.standard.ipn',
 ]
+
+# SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -83,19 +86,28 @@ DATABASES = {
         'USER': 'bugaly',
         'PASSWORD': 'Mameibi2011',
         'HOST': 'bugaly.database.windows.net',
-        'PORT': ''
+        'PORT': '',
+        'OPTIONS': {
+            'driver': 'ODBC Driver 17 for SQL Server',
+        },
     },
 
-    'OPTIMACRM': {
-        'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'CRM_DEALER',
-        'USER': 'optimo',
-        'PASSWORD': 'OptimusPr1me',
-        'HOST': 'dboptima.database.windows.net',
-        'PORT': ''
-    }
+    # 'OPTIMACRM': {
+    #     'ENGINE': 'sql_server.pyodbc',
+    #     'NAME': 'OTIMA_CRM_DEALER',
+    #     'USER': 'optimo',
+    #     'PASSWORD': 'OptimusPr1me',
+    #     'HOST': 'dboptima.database.windows.net',
+    #     'PORT': ''
+    # }
 }
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': 'unix:/tmp/memcached.sock',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -134,6 +146,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    '/var/www/static/',
+]
+
+# STATIC_ROOT = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 # Session configuration
 

@@ -1,9 +1,0 @@
-urlencode
-__all__
-urlquote
-PY2
-to_bytes
-PY3
-to_str
-sys
-unicode
